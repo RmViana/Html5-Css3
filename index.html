@@ -12,34 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <h1>Forms</h1>
-    <form action="/contact.html">
-      <label for="user">Username</label>
-      <input
-        autofocus
-        maxlength="30"
-        minlength="6"
-        name="user"
-        type="text"
-        id="user"
-        placeholder="Characters should be 6 minimum"
-        required
-      />
-      <label>Email</label>
-      <input name="email" type="email" required />
-      <select name="products" id="product">
-        <option value=""></option>
-        <option value="Macbook 2018">Macbook</option>
-        <option value="Iphone 11">Iphone</option>
-      </select>
-      <label for="message">Message</label>
-      <textarea
-        name="message"
-        id="message"
-        cols="30"
-        rows="10"
-        required
-      ></textarea>
+    <form>
+      <input type="radio" name="products" value="macbook" />
+      <input type="radio" name="products" value="iphone" />
+      <input type="radio" name="products" value="amazon" />
+      <input type="radio" name="products" value="cook boy" />
       <button type="submit">Submit</button>
     </form>
   </body>
