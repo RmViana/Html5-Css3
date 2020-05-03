@@ -1,11 +1,14 @@
-h1.active {
-  color: deeppink;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header {
-  color: cornflowerblue;
-}
-
-.active {
-  color: darkslateblue;
+div {
+  background: rgb(69, 66, 105);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border: 50px solid black;
 }
