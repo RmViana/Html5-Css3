@@ -8,21 +8,36 @@ html {
   font-size: 62.5%;
 }
 
-div {
-  min-height: 50vh;
-  font-size: 3.6rem;
+.container {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (min-width: 500px) and (max-width: 1024px) {
-  body {
-    background: lightblue;
-  }
+.box {
+  height: 10rem;
+  flex-basis: 2rem;
+}
 
-  div {
-    font-size: calc(1.4rem + 2vw);
-  }
-
-  html {
-    font-size: 50%;
-  }
+.box1 {
+  background: rgb(162, 92, 202);
+  align-self: flex-start;
+}
+.box2 {
+  background: rgb(92, 94, 202);
+}
+.box3 {
+  background: rgb(118, 202, 92);
+}
+.box4 {
+  background: rgb(202, 92, 129);
+}
+.box5 {
+  background: rgb(202, 176, 92);
+}
+.box6 {
+  background: rgb(52, 52, 102);
 }
