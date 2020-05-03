@@ -1,7 +1,3 @@
-.first-title {
-  color: red;
-}
-
-#youtube-link {
-  color: black;
+.links li:nth-child(1) {
+  color: cyan;
 }
