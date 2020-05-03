@@ -8,42 +8,14 @@ html {
   font-size: 62.5%;
 }
 
-html,
-body {
-  height: 200%;
+h1 {
+  font-size: 4rem;
 }
 
-.container {
-  background: cadetblue;
-  width: 80%;
-  height: 80%;
-  margin: auto;
-  position: relative;
+h1::before {
+  content: "me";
 }
 
-.box1,
-.box2,
-.box3 {
-  width: 20%;
-  height: 10%;
-  background: rgb(164, 52, 255);
-}
-
-.box2 {
-  background: rgb(63, 255, 223);
-  position: relative;
-  left: 3rem;
-}
-
-.box3 {
-  background: rgb(29, 29, 29);
-  position: sticky;
-  top: 0%;
-}
-
-.box1 {
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-  transform: translate(-50%, -50%);
+h1::after {
+  content: "me";
 }
