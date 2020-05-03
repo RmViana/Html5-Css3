@@ -8,10 +8,21 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  background: lightslategray;
+div {
+  min-height: 50vh;
+  font-size: 3.6rem;
 }
 
-h1 {
-  font-size: 4.8rem;
+@media (min-width: 500px) and (max-width: 1024px) {
+  body {
+    background: lightblue;
+  }
+
+  div {
+    font-size: calc(1.4rem + 2vw);
+  }
+
+  html {
+    font-size: 50%;
+  }
 }
