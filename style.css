@@ -1,3 +1,11 @@
-.links li:nth-child(1) {
-  color: cyan;
+h1.active {
+  color: deeppink;
+}
+
+.header {
+  color: cornflowerblue;
+}
+
+.active {
+  color: darkslateblue;
 }
